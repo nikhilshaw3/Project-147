@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+      <a-sky src="https://images.unsplash.com/photo-1597200381847-30ec200eeb9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80">
+
+      </a-sky>
+
+      <a-plane
+        id="ground"
+        src="https://thumbs.dreamstime.com/b/ceramic-tile-wood-texture-kitchen-living-room-174778274.jpg"
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="20"
+        height="10"
+      ></a-plane>
+
+      <a-plane
+        id="carpet"
+        src="https://thumbs.dreamstime.com/b/persian-carpet-texture-21684751.jpg"
+        position="0 0.1 0.5"
+        rotation="-90 0 0"
+        width="8"
+        height="5"
+      ></a-plane>
+
+      <a-box
+        id="wall"
+        src="https://i.ytimg.com/vi/7PHzmphWUCk/maxresdefault.jpg"
+        position="0 6.5 -4.5"
+        width="20"
+        height="13"
+      >
+      </a-box>
+
+      <a-plane
+        id="wall-poster-left"
+        src="https://i.pinimg.com/236x/76/d7/6e/76d76e896a34f940fab13d105cee7832--startup-office-print-d.jpg"
+        position="-5 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <a-plane
+        id="wall-poster-middle"
+        src="https://cdn.shopify.com/s/files/1/0151/0741/products/Programer_Code-NGPS2458_a3dd38b6-f494-4cdb-94f0-47787669c769_1024x1024.jpg?v=1578633648"
+        position="0 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <a-plane
+        id="wall-poster-right"
+        src="https://i.pinimg.com/originals/ee/f4/32/eef4321010da72aec13b12be41abf68b.jpg"
+        position="5 6 -3.3"
+        rotation="0 0 0"
+        width="4"
+        height="6"
+      ></a-plane>
+
+      <!-- Chair 1  -->
+      <a-cylinder
+        src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400"
+        radius="1"
+        position="6.5 -0.4 0"
+      >
+        <a-cylinder
+          src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400"
+          radius="0.2"
+          position="0 1.2 0"
+          height="1.2"
+        >
+        </a-cylinder>
+        <a-cylinder src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400" position="0 1.9 0" rotation="0 0 0" radius="1.3" height="0.2"></a-cylinder>
+        <a-cylinder
+          src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400"
+          position="0.85 3.2 0"
+          rotation="90 -90 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+      </a-cylinder>
+
+      <!-- Chair 2  -->
+
+      <a-cylinder
+        src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400"
+        radius="1.2"
+        position="-6.5 -0.4 0"
+      >
+        <a-cylinder
+          src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400"
+          radius="0.2"
+          position="0 1.2 0"
+          height="1.2"
+        >
+        </a-cylinder>
+        <a-cylinder
+          src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400"
+          position="0 1.9 0"
+          rotation="0 0 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+        <a-cylinder
+          src="https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400"
+          position="-0.85 3.2 0"
+          rotation="90 -90 0"
+          radius="1.3"
+          height="0.2"
+        ></a-cylinder>
+      </a-cylinder>
+
+      <!-- Dining Table -->
+      <a-box
+        src="https://s3.envato.com/files/333870901/backs_prelmar-16.JPG"
+        width="8"
+        height="3.5"
+        position="0 2 0"
+        rotation="90 0 0"
+        depth="0.2"
+      >
+        <a-cylinder
+          src="https://s3.envato.com/files/333870901/backs_prelmar-16.JPG"
+          height="2"
+          radius="0.8"
+          rotation="90 0 0"
+          position="0 0 1"
+        ></a-cylinder>
+      </a-box>
+
+      <!-- Lamp -->
+
+      <a-cone color="brown"position="0 9 0"radius-top="0.5"radius-bottom="1.5">
+      <a-sphere color="white" position="0 -0.5 0"></a-sphere>
+      <a-cylinder color="white" radius="0.15" height="3" position="0 2 0"></a-cylinder>
+      </a-cone>
+       
+</a-scene>
+</body>
+</html>
